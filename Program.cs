@@ -48,4 +48,9 @@ else
     Console.WriteLine($"You are only {age} years old!");
     Console.WriteLine($"We recommend you wait {newAge} years to enroll");
 }
+
 //close application
+Console.WriteLine();
+Console.WriteLine();
+Console.Write("Press ENTER to exit program: ");
+Console.ReadLine()
