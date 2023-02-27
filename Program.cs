@@ -20,9 +20,32 @@ string? ageString = Console.ReadLine();
 int age = int.Parse(ageString);
 
 //Switch case
-
+switch (firstName.ToLower())
+{
+    case "bob" or "sue":
+        Console.WriteLine("Hello Professor!");
+        break;
+    default:
+        Console.WriteLine("Hello Student!");
+        break;
+}
 
 //If Age, else if
-
-
+if (age >= 21)
+{
+    Console.WriteLine($"You are {age} years old!");
+    Console.WriteLine("You are old enough to enroll in this class");
+}
+else if (age == 20)
+{
+    int newAge = 21 - age;
+    Console.WriteLine($"You are only {age} years old!");
+    Console.WriteLine($"We recommend you wait {newAge} year to enroll");
+}
+else
+{
+    int newAge = 21 - age;
+    Console.WriteLine($"You are only {age} years old!");
+    Console.WriteLine($"We recommend you wait {newAge} years to enroll");
+}
 //close application
