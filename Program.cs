@@ -40,7 +40,7 @@ else if (age == 20)
 {
     int newAge = 21 - age;
     Console.WriteLine($"You are only {age} years old!");
-    Console.WriteLine($"We recommend you wait {newAge} year to enroll");
+    Console.WriteLine($"We recommend you wait {newAge} more year to enroll");
 }
 else
 {
