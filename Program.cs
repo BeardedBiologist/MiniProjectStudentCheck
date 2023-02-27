@@ -53,4 +53,4 @@ else
 Console.WriteLine();
 Console.WriteLine();
 Console.Write("Press ENTER to exit program: ");
-Console.ReadLine()
+Console.ReadLine();
