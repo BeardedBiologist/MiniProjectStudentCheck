@@ -6,3 +6,10 @@
  * 
  */
 
+//Input Data
+
+//Switch case
+
+//If Age, else if
+
+//close application
